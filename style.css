@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(90deg,black, green);
+    color: white;
+    text-align: center;
+}
+.blueBoy {
+    background-color: lightblue;
+}
+header {
+    text-align: center;
+    font-size: xx-large;
+    background-image: url(assets/images/background\ image\ for\ header.png);
+    color:crimson
+}
+.contactMe {
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(45deg, brown, lightgreen);
+    margin: 30px auto; 
+    padding: 50px; 
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 8px; 
+}
+.blueBoy {
+    background-color: lightblue;
+}
+
+.navbar.sticky-top {
+    background-color: rgba(173, 216, 230, 0.9); /* Light blue with some transparency */
+}
+html {
+    scroll-behavior: smooth;
+}
