@@ -4,16 +4,14 @@ body {
     text-align: center;
 }
 
-/* Navbar */
 .blueBoy {
     background-color: lightblue;
 }
 
 .navbar.sticky-top {
-    background-color: rgba(173, 216, 230, 0.9); /* Light blue with some transparency */
+    background-color: rgba(173, 216, 230, 0.9);
 }
 
-/* Header */
 header {
     text-align: center;
     font-size: xx-large;
@@ -21,7 +19,6 @@ header {
     color: crimson;
 }
 
-/* Contact Section */
 .contactMe {
     text-align: center;
     font-size: x-large;
@@ -33,9 +30,9 @@ header {
     border-radius: 8px;
 }
 
-/* Projects */
+
 .card-link {
-    text-decoration: none; /* Remove default link underline */
+    text-decoration: none; 
 }
 
 .card-link .card {
@@ -47,7 +44,7 @@ header {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Grid Layout */
+
 #projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +52,7 @@ header {
 }
 
 .project-card-container {
-    flex: 1 1 calc(25% - 20px); /* 4 items per row */
+    flex: 1 1 calc(25% - 20px); 
     max-width: calc(25% - 20px);
     margin: 10px;
 }
