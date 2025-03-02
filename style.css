@@ -1,27 +1,10 @@
 body {
-    background-image: linear-gradient(90deg,black, green);
+    background-image: linear-gradient(90deg, black, green);
     color: white;
     text-align: center;
 }
-.blueBoy {
-    background-color: lightblue;
-}
-header {
-    text-align: center;
-    font-size: xx-large;
-    background-image: url(assets/images/background\ image\ for\ header.png);
-    color:crimson
-}
-.contactMe {
-    text-align: center;
-    font-size: x-large;
-    background-image: linear-gradient(45deg, brown, lightgreen);
-    margin: 30px auto; 
-    padding: 50px; 
-    width: 80%; 
-    max-width: 600px; 
-    border-radius: 8px; 
-}
+
+/* Navbar */
 .blueBoy {
     background-color: lightblue;
 }
@@ -29,6 +12,50 @@ header {
 .navbar.sticky-top {
     background-color: rgba(173, 216, 230, 0.9); /* Light blue with some transparency */
 }
-html {
-    scroll-behavior: smooth;
+
+/* Header */
+header {
+    text-align: center;
+    font-size: xx-large;
+    background-image: url(assets/images/background\ image\ for\ header.png);
+    color: crimson;
+}
+
+/* Contact Section */
+.contactMe {
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(45deg, brown, lightgreen);
+    margin: 30px auto;
+    padding: 50px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Projects */
+.card-link {
+    text-decoration: none; /* Remove default link underline */
+}
+
+.card-link .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid Layout */
+#projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card-container {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row */
+    max-width: calc(25% - 20px);
+    margin: 10px;
 }
